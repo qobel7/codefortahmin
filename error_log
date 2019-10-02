@@ -1,0 +1,4 @@
+[04-Apr-2019 18:19:53 UTC] PHP Fatal error:  Call to a member function post() on null in /home/mislisite/public_html/codeForTahmin/application/controllers/ServiceController.php on line 59
+[04-Apr-2019 18:20:31 UTC] PHP Fatal error:  Call to a member function post() on null in /home/mislisite/public_html/codeForTahmin/application/controllers/ServiceController.php on line 59
+[04-Apr-2019 18:21:11 UTC] PHP Fatal error:  Call to a member function post() on null in /home/mislisite/public_html/codeForTahmin/application/controllers/ServiceController.php on line 59
+[04-Apr-2019 18:21:18 UTC] PHP Fatal error:  Call to a member function post() on null in /home/mislisite/public_html/codeForTahmin/application/controllers/ServiceController.php on line 59

@@ -37,7 +37,7 @@ class User extends CI_Controller {
 	 * @return void
 	 */
 	public function register() {
-		
+		echo "est";
 		// create the data object
 		$data = new stdClass();
 

@@ -35,6 +35,28 @@ CREATE TABLE `ci_sessions` (
   `data` blob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
+create table guess_new
+(
+  id               int auto_increment
+    primary key,
+  evTakim          varchar(100) null,
+  evtakimen        varchar(100) null,
+  deplasmanTakim   varchar(100) null,
+  deplasmanTakimEN varchar(100) null,
+  tahmin           varchar(100) null,
+  tahminEN         varchar(100) null,
+  oran             varchar(100) null,
+  evSonuc          varchar(100) null,
+  deplasmanSonuc   varchar(100) null,
+  saat             varchar(100) null,
+  iddaaKod         varchar(100) null,
+  iddaaTur         varchar(100) null,
+  bayrak           varchar(200) null
+);
+
+
+
 -- --------------------------------------------------------
 
 --

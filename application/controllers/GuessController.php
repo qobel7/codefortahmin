@@ -20,7 +20,7 @@ class GuessController extends CK_Controller
 
     }
 
-    private $path="guess/";
+    private $path="guess_new/";
     private $absolutePath = "";
 
 	public function page(){
@@ -36,12 +36,12 @@ class GuessController extends CK_Controller
 	public function getUpdateView(){
 		$id = $this->input->post("id");
 		$data["data"] = $this->guessModel->getById($id);
-		//print_r($data);
+        $data["images"] = $this->guessModel->getImageNames();
 		return $this->load->view($this->absolutePath."EditView",$data);
 	}
 	public function getGenerateView(){
-
-		return $this->load->view($this->absolutePath."GenerateView",null);
+        $data["images"] = $this->guessModel->getImageNames();
+		return $this->load->view($this->absolutePath."GenerateView",$data);
 	}
 	public function add(){
 		$data = $this->input->post();

@@ -56,12 +56,12 @@
 				<li class="nav-item" style="    background: #f3f3f3;">
 					<a class="nav-link active" href="Guess">Tahminler</a>
 				</li>
-				<li class="nav-item" style="    background: #f3f3f3;">
+				<!--<li class="nav-item" style="    background: #f3f3f3;">
 					<a class="nav-link" href="GuessUser">Kullanıcılar Sayfası</a>
 				</li>
 				<li class="nav-item" style="    background: #f3f3f3;">
 					<a class="nav-link" href="News">Duyurular Sayfası</a>
-				</li>
+				</li>-->
 			</ul>
 
 		</div>

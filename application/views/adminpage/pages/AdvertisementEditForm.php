@@ -15,7 +15,7 @@
 			<label for="inputKey">Kategori</label>
 			<?php /*print_r($advertisement[0]->version)*/?><!--
 			--><?php /*print_r($categories)*/?>
-			<select class="form-control" name="version" id="exampleFormControlSelect1">
+			<select " name="version" id="exampleFormControlSelect1">
 				<?php foreach ($categories as $item) {?>
 				<option value="<?php echo $item->id ?>"
 				 <?php echo $advertisement[0]->version == $item->id ? "selected='selected'":""?> ><?php echo $item->key ?></option>

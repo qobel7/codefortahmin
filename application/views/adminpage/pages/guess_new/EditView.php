@@ -65,6 +65,17 @@
 			<input type="text" class="form-control" id="inputKey" name="iddaaTur" value="<?php echo $data[0]->iddaaTur;?>" placeholder="">
 		</div>
 
+        <div class="form-group col-md-12">
+            <label for="inputdescription">iddaaTur</label>
+            <!--<input type="text" class="form-control" id="inputdescription" name="description" placeholder="açıklama">-->
+            <select name="bayrak" class="form-control" >
+                <option selected>Open this select menu</option>
+                <?php foreach ($images as  $image) {?>
+                    <option value="<?php  echo $image?>" <?php echo $data[0]->bayrak == $image ? "selected": ""?>><?php  echo $image?></option>
+                <?php } ?>
+            </select>
+        </div>
+
 		<input type="hidden" name="id" value="<?php echo $data[0]->id ;?>" >
     </div>
 	<div class="row">

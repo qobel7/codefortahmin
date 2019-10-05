@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://2misli.net/codeForTahmin/';
-$config['base_url'] = 'http://localhost/codefortahmin/';
+$config['base_url'] = 'http://test.2mislim.com/codefortahmin/';
 
 /*
 |--------------------------------------------------------------------------
